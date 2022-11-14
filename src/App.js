@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from './components/Header'
+import Resume from './components/Resume'
 import Global from './styles/global'
 
 function App() {
   return (
     <>
-      <div>App</div>
+      <Header />
+      <Resume />
       <Global />
     </>
   )
